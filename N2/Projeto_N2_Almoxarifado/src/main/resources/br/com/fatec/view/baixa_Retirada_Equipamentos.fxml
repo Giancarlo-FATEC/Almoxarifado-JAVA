@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="556.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.fatec.controller.Baixa_Retirada_EquipamentosController">
+   <children>
+      <Text layoutX="110.0" layoutY="49.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RETIRAR EQUIPAMENTO" textAlignment="CENTER" wrappingWidth="379.13671875">
+         <font>
+            <Font name="Franklin Gothic Medium" size="29.0" />
+         </font>
+      </Text>
+      <Label layoutX="14.0" layoutY="65.0" prefHeight="32.0" prefWidth="168.0" text="Nome do funcionário">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="14.0" layoutY="97.0" prefHeight="32.0" prefWidth="246.0" />
+      <Label layoutX="300.0" layoutY="65.0" prefHeight="32.0" prefWidth="168.0" text="Número de registro">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="300.0" layoutY="97.0" prefHeight="32.0" prefWidth="246.0" />
+      <Label layoutX="17.0" layoutY="141.0" prefHeight="32.0" prefWidth="168.0" text="Código equipamento">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="51.0" layoutY="173.0" prefHeight="32.0" prefWidth="101.0" />
+      <TextField layoutX="7.0" layoutY="212.0" prefHeight="32.0" prefWidth="207.0" promptText="Nome do equipamento" />
+      <TextField layoutX="11.0" layoutY="253.0" prefHeight="32.0" prefWidth="152.0" promptText="Categoria" />
+      <Label layoutX="300.0" layoutY="184.0" prefHeight="32.0" prefWidth="190.0" text="Data retirada">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <DatePicker layoutX="297.0" layoutY="216.0" />
+      <Label layoutX="300.0" layoutY="253.0" prefHeight="32.0" prefWidth="190.0" text="Hora retirada">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="300.0" layoutY="282.0" prefHeight="32.0" prefWidth="107.0" promptText="00:00" />
+      <Button layoutX="163.0" layoutY="333.0" mnemonicParsing="false" prefHeight="53.0" prefWidth="264.0" text="SALVAR RETIRADA" textAlignment="CENTER" textFill="#3a7546">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <TextField layoutX="159.0" layoutY="289.0" prefHeight="25.0" prefWidth="46.0" />
+      <Label layoutX="11.0" layoutY="285.0" prefHeight="32.0" prefWidth="152.0" text="Qtde em estoque">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="300.0" layoutY="141.0" prefHeight="32.0" prefWidth="125.0" text="Qtde retirado">
+         <font>
+            <Font name="SansSerif Regular" size="18.0" />
+         </font>
+      </Label>
+      <TextField layoutX="422.0" layoutY="145.0" prefHeight="25.0" prefWidth="46.0" />
+   </children>
+</AnchorPane>
