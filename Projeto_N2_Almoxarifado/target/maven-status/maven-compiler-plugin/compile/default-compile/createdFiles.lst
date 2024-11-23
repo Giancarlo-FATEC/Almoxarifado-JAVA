@@ -1,0 +1,16 @@
+br\com\fatec\controller\Devolutiva_EquipamentoController.class
+br\com\fatec\DAO\FornecedorDAO.class
+br\com\fatec\DAO\EquipamentoDAO.class
+br\com\fatec\model\Equipamento.class
+br\com\fatec\controller\Cadastrar_ReservaController.class
+br\com\fatec\DAO\DAO.class
+br\com\fatec\controller\Cadastrar_FornecedorController.class
+br\com\fatec\controller\Menu_AlmoxarifadoController.class
+br\com\fatec\App.class
+br\com\fatec\model\RetiradaEquipamento.class
+br\com\fatec\controller\Baixa_Retirada_EquipamentosController.class
+br\com\fatec\controller\Consultar_EquipamentosController.class
+br\com\fatec\DAO\RetiradaEquipamentoDAO.class
+br\com\fatec\controller\Cadastrar_EquipamentoController.class
+br\com\fatec\model\Fornecedor.class
+br\com\fatec\persistencia\Banco.class
